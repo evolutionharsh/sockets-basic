@@ -7,8 +7,8 @@ var socket = io();
 socket.on('connect',function () {
     console.log('Connected to socket.io server!');
     socket.emit('joinRoom', {
-        name: name,
-        room: room
+        //name: name,
+        //room: room
     });
 });
 
